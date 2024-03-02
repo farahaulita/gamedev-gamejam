@@ -1,0 +1,90 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Inv_UI.gd" type="Script" id=1]
+[ext_resource path="res://Slot.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Base.png" type="Texture" id=3]
+
+[node name="Inv_UI" type="Control"]
+margin_top = -40.0
+margin_right = 304.0
+margin_bottom = 90.0
+script = ExtResource( 1 )
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+margin_left = 7.0
+margin_top = 52.0
+margin_right = 312.0
+margin_bottom = 182.0
+texture = ExtResource( 3 )
+
+[node name="Grid" type="GridContainer" parent="NinePatchRect"]
+margin_left = -3.0
+margin_right = 57.0
+margin_bottom = 52.0
+grow_horizontal = 0
+columns = 4
+
+[node name="Slot" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+margin_right = 0.0
+margin_bottom = 0.0
+
+[node name="Slot2" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+margin_left = 4.0
+margin_right = 4.0
+margin_bottom = 0.0
+
+[node name="Slot3" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+margin_left = 8.0
+margin_right = 8.0
+margin_bottom = 0.0
+
+[node name="Slot4" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+margin_left = 12.0
+margin_right = 12.0
+margin_bottom = 0.0
+
+[node name="Slot5" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+margin_top = 4.0
+margin_right = 0.0
+margin_bottom = 4.0
+
+[node name="Slot6" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+margin_left = 4.0
+margin_top = 4.0
+margin_right = 4.0
+margin_bottom = 4.0
+
+[node name="Slot7" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+margin_left = 8.0
+margin_top = 4.0
+margin_right = 8.0
+margin_bottom = 4.0
+
+[node name="Slot8" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+margin_left = 12.0
+margin_top = 4.0
+margin_right = 12.0
+margin_bottom = 4.0
+
+[node name="Slot9" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+margin_top = 8.0
+margin_right = 0.0
+margin_bottom = 8.0
+
+[node name="Slot10" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+margin_left = 4.0
+margin_top = 8.0
+margin_right = 4.0
+margin_bottom = 8.0
+
+[node name="Slot11" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 8.0
+margin_bottom = 8.0
+
+[node name="Slot12" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+margin_left = 12.0
+margin_top = 8.0
+margin_right = 12.0
+margin_bottom = 8.0
