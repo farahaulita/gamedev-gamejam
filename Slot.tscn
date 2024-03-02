@@ -10,8 +10,6 @@ margin_right = 20.0
 margin_bottom = 19.0
 script = ExtResource( 3 )
 
-[node name="Sprite" type="Sprite" parent="."]
-
 [node name="Active" type="Sprite" parent="."]
 visible = false
 position = Vector2( 0, -4.76837e-07 )
@@ -24,3 +22,17 @@ centered = false
 scale = Vector2( 0.173913, 0.173913 )
 texture = ExtResource( 2 )
 centered = false
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+margin_right = 20.0
+margin_bottom = 20.0
+
+[node name="Panel" type="Panel" parent="CenterContainer"]
+margin_left = 10.0
+margin_top = 10.0
+margin_right = 10.0
+margin_bottom = 10.0
+
+[node name="Sprite" type="Sprite" parent="CenterContainer/Panel"]
+scale = Vector2( 0.2, 0.2 )
+z_index = 4

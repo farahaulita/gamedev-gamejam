@@ -11,79 +11,80 @@ margin_bottom = 90.0
 script = ExtResource( 1 )
 
 [node name="NinePatchRect" type="NinePatchRect" parent="."]
-margin_left = 7.0
-margin_top = 52.0
-margin_right = 312.0
-margin_bottom = 182.0
+margin_left = 1.0
+margin_top = 40.0
+margin_right = 212.0
+margin_bottom = 140.0
 texture = ExtResource( 3 )
 
-[node name="Grid" type="GridContainer" parent="NinePatchRect"]
-margin_left = -3.0
-margin_right = 57.0
-margin_bottom = 52.0
-grow_horizontal = 0
+[node name="GridContainer" type="GridContainer" parent="."]
+margin_left = 4.0
+margin_top = 46.0
+margin_right = 44.0
+margin_bottom = 86.0
+rect_pivot_offset = Vector2( 348, 46 )
 columns = 4
 
-[node name="Slot" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+[node name="Slot" parent="GridContainer" instance=ExtResource( 2 )]
 margin_right = 0.0
 margin_bottom = 0.0
 
-[node name="Slot2" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+[node name="Slot2" parent="GridContainer" instance=ExtResource( 2 )]
 margin_left = 4.0
 margin_right = 4.0
 margin_bottom = 0.0
 
-[node name="Slot3" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+[node name="Slot3" parent="GridContainer" instance=ExtResource( 2 )]
 margin_left = 8.0
 margin_right = 8.0
 margin_bottom = 0.0
 
-[node name="Slot4" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+[node name="Slot4" parent="GridContainer" instance=ExtResource( 2 )]
 margin_left = 12.0
 margin_right = 12.0
 margin_bottom = 0.0
 
-[node name="Slot5" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+[node name="Slot5" parent="GridContainer" instance=ExtResource( 2 )]
 margin_top = 4.0
 margin_right = 0.0
 margin_bottom = 4.0
 
-[node name="Slot6" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+[node name="Slot6" parent="GridContainer" instance=ExtResource( 2 )]
 margin_left = 4.0
 margin_top = 4.0
 margin_right = 4.0
 margin_bottom = 4.0
 
-[node name="Slot7" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+[node name="Slot7" parent="GridContainer" instance=ExtResource( 2 )]
 margin_left = 8.0
 margin_top = 4.0
 margin_right = 8.0
 margin_bottom = 4.0
 
-[node name="Slot8" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+[node name="Slot8" parent="GridContainer" instance=ExtResource( 2 )]
 margin_left = 12.0
 margin_top = 4.0
 margin_right = 12.0
 margin_bottom = 4.0
 
-[node name="Slot9" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+[node name="Slot9" parent="GridContainer" instance=ExtResource( 2 )]
 margin_top = 8.0
 margin_right = 0.0
 margin_bottom = 8.0
 
-[node name="Slot10" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+[node name="Slot10" parent="GridContainer" instance=ExtResource( 2 )]
 margin_left = 4.0
 margin_top = 8.0
 margin_right = 4.0
 margin_bottom = 8.0
 
-[node name="Slot11" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+[node name="Slot11" parent="GridContainer" instance=ExtResource( 2 )]
 margin_left = 8.0
 margin_top = 8.0
 margin_right = 8.0
 margin_bottom = 8.0
 
-[node name="Slot12" parent="NinePatchRect/Grid" instance=ExtResource( 2 )]
+[node name="Slot12" parent="GridContainer" instance=ExtResource( 2 )]
 margin_left = 12.0
 margin_top = 8.0
 margin_right = 12.0

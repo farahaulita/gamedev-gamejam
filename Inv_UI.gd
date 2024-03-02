@@ -4,7 +4,7 @@ var is_open = false
 var is_potion = false
 var is_give = false
 onready var inv = preload("res://playerinv.tres")
-onready var slots = $NinePatchRect/Grid.get_children()
+onready var slots = $GridContainer.get_children()
 var select = 0
 
 func _ready():
