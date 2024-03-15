@@ -1,0 +1,87 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1710486663.cfg"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1709014720.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1709014720.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Do you like milk?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1709014420.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1709014420.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I would say there's no Felines who don't like milk"
+		},
+		{
+			"character": "character-1709014420.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "None of us can digest it well though.. So i don't drink too much."
+		},
+		{
+			"character": "character-1709014720.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Most people here are able to digest it well. We're a minority though."
+		},
+		{
+			"character": "character-1709014420.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "By the way, do you know that milk is around 3% fat?"
+		},
+		{
+			"emit_signal": "end",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1709866467.json",
+		"name": "Milk"
+	}
+}

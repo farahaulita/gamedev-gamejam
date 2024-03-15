@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://InteractionArea.gd" type="Script" id=1]
+[ext_resource path="res://scripts/Cookie.gd" type="Script" id=1]
 [ext_resource path="res://Label.gd" type="Script" id=2]
 
 [node name="InteractionArea" type="Area2D"]

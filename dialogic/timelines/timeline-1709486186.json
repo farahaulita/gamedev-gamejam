@@ -1,0 +1,47 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1710486663.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Easy Potion Recipes for Beginners. Written by Alice Karnas."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Fast - Growth Potion : A simple potion to accelarate growth for certain plants. It's not particularly potent, but it works well on mana-rich plants. Please note that you need an alkaline soil to activate it. Please do not drink it."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ingredients: Any kind of sugar (monosaccharide) - at least 2 parts, you can add more. A liquid base containing at least 2% fat - 3 parts. Mort Essence - 1 part."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mana Potion : A potion that can recover mana in vessels that are capable of storing mana, organic or non-organic. There are several recpies for this potion, but we'll use the simplest ones this time."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ingredients:  Any kind of mana-binding agent. Any kind of mana stone. Distilled water. There isn't any specific ratios, as binding agents work differently and higher quality stones will need more mana binders. It's impossible to mess this up anyways."
+		},
+		{
+			"emit_signal": "end",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1709486186.json",
+		"name": "PotionBook"
+	}
+}

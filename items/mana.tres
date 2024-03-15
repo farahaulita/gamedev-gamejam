@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://scripts/Item.gd" type="Script" id=1]
+[ext_resource path="res://assets/Mana.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+name = "Mana Potion"
+description = "A simple mana potion. Give it to finish the game."
+texture = ExtResource( 2 )
+id = 0

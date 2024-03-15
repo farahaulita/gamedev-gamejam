@@ -1,8 +1,9 @@
-[gd_resource type="Resource" load_steps=3 format=2]
+[gd_resource type="Resource" load_steps=4 format=2]
 
-[ext_resource path="res://Inventory.gd" type="Script" id=1]
-[ext_resource path="res://cookie.tres" type="Resource" id=2]
+[ext_resource path="res://scripts/Inventory.gd" type="Script" id=1]
+[ext_resource path="res://items/milk.tres" type="Resource" id=3]
+[ext_resource path="res://items/cookie.tres" type="Resource" id=4]
 
 [resource]
 script = ExtResource( 1 )
-items = [ ExtResource( 2 ), ExtResource( 2 ), null, null, null, null, null, ExtResource( 2 ), null, ExtResource( 2 ), ExtResource( 2 ), ExtResource( 2 ) ]
+items = [ ExtResource( 4 ), ExtResource( 3 ), null, null, null, null, null, null, null, null, null, null ]

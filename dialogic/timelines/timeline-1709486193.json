@@ -1,0 +1,59 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1710486663.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Flowers of the Eastern Plains. Written by K. Ludwig. Illustrations by Aquilla ."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Katura Flowers : A common decorative plant found in temperate regions. Has trumpet-shaped flowers that can vary in color from white to pink and purple. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "All parts of these plants contain alkaloid compounds that can act as a powerful deliriant if ingested. As the amount of alkaloids can vary wildly due to enviromental factors, consumption is highly discouraged as it can result in death."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Plum Rose : Not an actual rose. Has fruits that looks similar to the plum, that also happens to look aesthetically pleasing. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Despite this, ornamental variants are reported to be lacking in taste compared to variants that are specifically bred for consumptions. Has flowers that looks similar to the rose, albeit smaller."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bell Lily : A common flower used for decoration and potion-making. Can act as a general mana-binding agent that is cheap and easy to produce. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A hardy plant that can withstand various enviromental conditions. Emits a faint blue glow and a sweet scent."
+		},
+		{
+			"emit_signal": "end",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1709486193.json",
+		"name": "FlowerBook"
+	}
+}

@@ -1,21 +1,21 @@
 {
 	"color": "#ffffffff",
 	"description": "",
-	"display_name": "",
-	"display_name_bool": false,
+	"display_name": "Carmel",
+	"display_name_bool": true,
 	"id": "character-1709014720.json",
 	"mirror_portraits": true,
 	"name": "mel.json",
 	"nickname": "",
 	"nickname_bool": false,
-	"offset_x": 0,
-	"offset_y": 0,
+	"offset_x": 100,
+	"offset_y": 370,
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://mel.png"
+			"path": "res://assets/Melsprite.png"
 		}
 	],
-	"scale": 20,
+	"scale": 12,
 	"theme": ""
 }

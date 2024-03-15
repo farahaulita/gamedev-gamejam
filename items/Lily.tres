@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://scripts/Item.gd" type="Script" id=1]
+[ext_resource path="res://assets/Lily.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+name = "Bell Lily"
+description = "A mana-rich flower with a slight blue glow. Smells very sweet, tends to attract a lot of insects."
+texture = ExtResource( 2 )
+id = 0

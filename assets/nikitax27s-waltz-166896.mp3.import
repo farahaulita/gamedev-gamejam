@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/nikitax27s-waltz-166896.mp3-c2a989a1f83a8a998f7ff5ca9bbf965a.mp3str"
+
+[deps]
+
+source_file="res://assets/nikitax27s-waltz-166896.mp3"
+dest_files=[ "res://.import/nikitax27s-waltz-166896.mp3-c2a989a1f83a8a998f7ff5ca9bbf965a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

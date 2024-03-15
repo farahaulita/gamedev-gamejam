@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://scripts/Item.gd" type="Script" id=1]
+[ext_resource path="res://assets/Growth.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+name = "Growth Potion"
+description = "Can be used to accelerate the growth of some plants. Needs an alkaline soil to work."
+texture = ExtResource( 2 )
+id = 0

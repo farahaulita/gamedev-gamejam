@@ -1,21 +1,21 @@
 {
 	"color": "#ffffffff",
 	"description": "",
-	"display_name": "",
-	"display_name_bool": false,
+	"display_name": "Ludmilia",
+	"display_name_bool": true,
 	"id": "character-1709014420.json",
 	"mirror_portraits": false,
 	"name": "mel2",
 	"nickname": "",
 	"nickname_bool": false,
 	"offset_x": 0,
-	"offset_y": 0,
+	"offset_y": 150,
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://mel.png"
+			"path": "res://assets/Gatsprite.png"
 		}
 	],
-	"scale": 20,
+	"scale": 11,
 	"theme": ""
 }

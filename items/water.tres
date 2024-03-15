@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://scripts/Item.gd" type="Script" id=1]
+[ext_resource path="res://assets/Water.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+name = "Water Vial"
+description = "A vial of plain water. Not the type that is suitable for drinking."
+texture = ExtResource( 2 )
+id = 0

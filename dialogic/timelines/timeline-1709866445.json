@@ -1,0 +1,107 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1710486663.cfg"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1709014720.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1709014720.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hehehe... What  do you think about the cookies? I baked them myself."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1709014420.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1709014420.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It's really tasty."
+		},
+		{
+			"character": "character-1709014720.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Do you have any preferences in cookies? I'll make sure to make some for you too."
+		},
+		{
+			"character": "character-1709014420.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I tried some cream cheese cookies once... They're really good."
+		},
+		{
+			"character": "character-1709014720.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cream cheese, huh? I'll make sure to keep that in mind."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"emit_signal": "end",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1709866445.json",
+		"name": "Cookie"
+	}
+}

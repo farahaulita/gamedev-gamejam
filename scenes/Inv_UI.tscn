@@ -1,0 +1,148 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://scripts/Inv_UI.gd" type="Script" id=1]
+[ext_resource path="res://scenes/Slot.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Base.png" type="Texture" id=3]
+[ext_resource path="res://scripts/InvUi.gd" type="Script" id=4]
+[ext_resource path="res://ItemDesc.png" type="Texture" id=5]
+[ext_resource path="res://ItemName.png" type="Texture" id=6]
+[ext_resource path="res://assets/CG pixel 4x5.ttf" type="DynamicFontData" id=7]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 7 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 7 )
+
+[node name="Inv_UI" type="Control"]
+margin_top = -4.0
+margin_right = 169.0
+margin_bottom = 90.0
+script = ExtResource( 1 )
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+anchor_left = 1.189
+anchor_top = 0.897
+anchor_right = 1.189
+anchor_bottom = 0.897
+margin_left = -203.941
+margin_top = -78.318
+margin_right = 503.059
+margin_bottom = 254.682
+texture = ExtResource( 3 )
+
+[node name="InvCont" type="GridContainer" parent="NinePatchRect"]
+margin_left = 29.0
+margin_top = 12.0
+margin_right = 359.0
+margin_bottom = 232.0
+rect_pivot_offset = Vector2( 348, 46 )
+custom_constants/vseparation = 110
+custom_constants/hseparation = 110
+columns = 4
+script = ExtResource( 4 )
+
+[node name="Slot" parent="NinePatchRect/InvCont" instance=ExtResource( 2 )]
+margin_right = 0.0
+margin_bottom = 0.0
+
+[node name="Slot2" parent="NinePatchRect/InvCont" instance=ExtResource( 2 )]
+margin_left = 110.0
+margin_right = 110.0
+margin_bottom = 0.0
+
+[node name="Slot3" parent="NinePatchRect/InvCont" instance=ExtResource( 2 )]
+margin_left = 220.0
+margin_right = 220.0
+margin_bottom = 0.0
+
+[node name="Slot4" parent="NinePatchRect/InvCont" instance=ExtResource( 2 )]
+margin_left = 330.0
+margin_right = 330.0
+margin_bottom = 0.0
+
+[node name="Slot5" parent="NinePatchRect/InvCont" instance=ExtResource( 2 )]
+margin_top = 110.0
+margin_right = 0.0
+margin_bottom = 110.0
+
+[node name="Slot6" parent="NinePatchRect/InvCont" instance=ExtResource( 2 )]
+margin_left = 110.0
+margin_top = 110.0
+margin_right = 110.0
+margin_bottom = 110.0
+
+[node name="Slot7" parent="NinePatchRect/InvCont" instance=ExtResource( 2 )]
+margin_left = 220.0
+margin_top = 110.0
+margin_right = 220.0
+margin_bottom = 110.0
+
+[node name="Slot8" parent="NinePatchRect/InvCont" instance=ExtResource( 2 )]
+margin_left = 330.0
+margin_top = 110.0
+margin_right = 330.0
+margin_bottom = 110.0
+
+[node name="Slot9" parent="NinePatchRect/InvCont" instance=ExtResource( 2 )]
+margin_top = 220.0
+margin_right = 0.0
+margin_bottom = 220.0
+
+[node name="Slot10" parent="NinePatchRect/InvCont" instance=ExtResource( 2 )]
+margin_left = 110.0
+margin_top = 220.0
+margin_right = 110.0
+margin_bottom = 220.0
+
+[node name="Slot11" parent="NinePatchRect/InvCont" instance=ExtResource( 2 )]
+margin_left = 220.0
+margin_top = 220.0
+margin_right = 220.0
+margin_bottom = 220.0
+
+[node name="Slot12" parent="NinePatchRect/InvCont" instance=ExtResource( 2 )]
+margin_left = 330.0
+margin_top = 220.0
+margin_right = 330.0
+margin_bottom = 220.0
+
+[node name="DescCont" type="GridContainer" parent="NinePatchRect"]
+margin_left = 104.0
+margin_top = 6.0
+margin_right = 163.0
+margin_bottom = 77.0
+custom_constants/vseparation = 170
+
+[node name="ItemName" type="Panel" parent="NinePatchRect/DescCont"]
+
+[node name="Sprite" type="Sprite" parent="NinePatchRect/DescCont/ItemName"]
+position = Vector2( 467, 36 )
+scale = Vector2( 0.7, 0.7 )
+texture = ExtResource( 6 )
+
+[node name="Label" type="Label" parent="NinePatchRect/DescCont/ItemName"]
+margin_left = 391.0
+margin_top = 22.0
+margin_right = 540.0
+margin_bottom = 50.0
+custom_fonts/font = SubResource( 1 )
+autowrap = true
+
+[node name="Desc" type="Panel" parent="NinePatchRect/DescCont"]
+margin_top = 170.0
+margin_bottom = 170.0
+
+[node name="Sprite" type="Sprite" parent="NinePatchRect/DescCont/Desc"]
+position = Vector2( 467, 25 )
+scale = Vector2( 0.7, 0.7 )
+texture = ExtResource( 5 )
+
+[node name="Label" type="Label" parent="NinePatchRect/DescCont/Desc"]
+margin_left = 392.0
+margin_top = -64.0
+margin_right = 580.0
+margin_bottom = 152.0
+rect_scale = Vector2( 0.8, 0.8 )
+custom_fonts/font = SubResource( 2 )
+autowrap = true

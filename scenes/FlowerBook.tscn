@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://scripts/FlowerBookInteract.gd" type="Script" id=1]
+[ext_resource path="res://assets/CG pixel 4x5.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 2 )
+
+[node name="FlowerBook" type="Area2D"]
+
+[node name="FlowerBookInteract" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+script = ExtResource( 1 )
+
+[node name="Label" type="Label" parent="FlowerBookInteract"]
+visible = false
+margin_left = -191.0
+margin_top = -107.0
+margin_right = 13.0
+margin_bottom = -93.0
+custom_fonts/font = SubResource( 2 )
+text = "[E] Flowers of The Eastern Plains"
+
+[connection signal="body_entered" from="." to="FlowerBookInteract" method="_on_FlowerBook_body_entered"]
+[connection signal="body_exited" from="." to="FlowerBookInteract" method="_on_FlowerBook_body_exited"]

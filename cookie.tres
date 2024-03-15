@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=3 format=2]
 
-[ext_resource path="res://Item.gd" type="Script" id=1]
+[ext_resource path="res://scripts/Item.gd" type="Script" id=1]
 [ext_resource path="res://icon.png" type="Texture" id=2]
 
 [resource]
@@ -8,3 +8,4 @@ script = ExtResource( 1 )
 name = "Chocolate Chip Cookies"
 description = "Chewy, classic chocolate chip cookies"
 texture = ExtResource( 2 )
+id = 0

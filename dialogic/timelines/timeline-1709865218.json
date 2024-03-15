@@ -1,0 +1,49 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1710486663.cfg"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1709014420.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1709014420.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "There's a flowering plant here... I'm not sure what kind of plant it is."
+		},
+		{
+			"character": "character-1709014420.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pretty sure there's a book here on flowers."
+		},
+		{
+			"emit_signal": "end",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1709865218.json",
+		"name": "LilyUnknown"
+	}
+}

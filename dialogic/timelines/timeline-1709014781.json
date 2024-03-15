@@ -1,24 +1,8 @@
 {
 	"events": [
 		{
-			"animation": "[Default]",
-			"animation_length": 0,
-			"change_mirror_portrait": false,
-			"change_z_index": false,
-			"character": "character-1709014720.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "Default",
-			"portrait_definition": "",
-			"position": {
-				"0": false,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": true
-			},
-			"type": 0,
-			"z_index": 0
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1710486663.cfg"
 		},
 		{
 			"animation": "[Default]",
@@ -41,26 +25,100 @@
 			"z_index": 0
 		},
 		{
-			"character": "character-1709014720.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Helllo"
-		},
-		{
 			"character": "character-1709014420.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Hello!"
+			"text": "... I'm sure this is her place...."
 		},
 		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
-			"character": "[All]",
+			"character": "character-1709014720.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1709014720.json",
+			"event_id": "dialogic_001",
 			"portrait": "",
+			"text": "Oh hi there!"
+		},
+		{
+			"character": "character-1709014720.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You must be Ludmilia. "
+		},
+		{
+			"character": "character-1709014720.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hehehe... you're so much cuter up close."
+		},
+		{
+			"character": "character-1709014720.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "There isn't a lot of Felines in this area."
+		},
+		{
+			"character": "character-1709014720.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I'm Carmel, you can just call me Mel. I'll be your new teacher from now on."
+		},
+		{
+			"character": "character-1709014420.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah nice to meet you..."
+		},
+		{
+			"character": "character-1709014720.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Since this is the first day, why don't I give a little test for you?"
+		},
+		{
+			"character": "character-1709014720.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Think of it as a little puzzle, or a game."
+		},
+		{
+			"character": "character-1709014720.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Make a mana potion. Everything you need will be in this house."
+		},
+		{
+			"character": "character-1709014720.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Feel free to ask me about things. Well I won't give too much hints, though."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1709014720.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
 			"portrait_definition": "",
 			"position": {
 				"0": false,
@@ -73,10 +131,16 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1709014420.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "This is for stuff"
+			"text": "Mana potion huh... that should be easy enough."
+		},
+		{
+			"character": "character-1709014420.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Let's check this place out."
 		},
 		{
 			"emit_signal": "end",
